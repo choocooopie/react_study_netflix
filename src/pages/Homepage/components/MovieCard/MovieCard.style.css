@@ -13,7 +13,7 @@
   position:absolute;inset:0;
   background:rgba(0,0,0,.72);
   color:#fff;
-  font-family:"Inter","Pretendard",sans-serif;
+  font-family:"Inter","Pretendard";
   display:flex;
   flex-direction:column;
   justify-content:space-between;  
@@ -30,7 +30,7 @@
   font-size:18px;
   line-height:1.3;
   margin:0 0 4px;
-  font-family:"Roboto",serif;
+  font-family:"Roboto";
 }
 .overlay-header hr{
   border:0;
@@ -51,9 +51,9 @@
   align-items:center;
 }
 .overlay-footer .adult{
-  color:#ff6961;
+  color:red;
 }
 
 .overlay-footer .under18{
-  color:#9df29d;
+  color:greenyellow;
 }

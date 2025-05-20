@@ -27,10 +27,10 @@ const MovieCard = ({ movie }) => (
      </div>
    
       <div className="overlay-footer">
-        <span><AiFillStar /> {movie.vote_average.toFixed(1)}</span>
-        <span><BsPeopleFill /> {Math.round(movie.popularity)}</span>
+        <span>평점 {movie.vote_average.toFixed(1)}</span>
+        <span>관객수 {Math.round(movie.popularity)}</span>
         <span className={movie.adult ? "adult" : "under18"}>
-          {movie.adult ? "Over 18" : "Under 18"}
+          {movie.adult ? "18세 이상" : "18세 미만"}
         </span>
       </div>
     </div>
