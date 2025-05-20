@@ -7,7 +7,7 @@ import MovieDetailPage from './pages/MovieDetail/MovieDetailPage';
 import NotFoundPage from './pages/NotFoundpage/NotFoundPage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-// 홈페이지 /
+// 홈페이지 
 // 영화 전체를 보여주는 페이지 (서치) /movies
 // 영화 디테일 페이지 /movies/:id
 // 추천 영화 /movies/:id/recommandation
